@@ -11,22 +11,19 @@ const Model = () => {
   return (
     <>
       <button className="btn-modal" onClick={toggleModal}>
-        Open Model
+        Open Surprize
       </button>
 
       {modal && (
         <div className="model">
           <div className="overlay-sec" onClick={toggleModal}></div>
           <div className="modal-content">
-            <h2>Model heading</h2>
+            <h2 className="wish">Happy New Year 2023</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia
-              corrupti, ex, assumenda, ratione repudiandae eos molestiae
-              blanditiis minus excepturi corporis explicabo dicta. Eaque
-              eligendi sint fugit corrupti quis porro tempora vitae voluptatem
-              reiciendis earum nemo libero ipsum natus dolorem suscipit, ratione
-              optio nobis enim adipisci quibusdam repellat eius veniam molestiae
-              pariatur.
+              Happy New Year! May you find the perspective you seek in 2023. As
+              a wise person once said, "Life isn't about waiting for the storm
+              to pass, it's about learning to dance in the rain". This is the
+              perfect time to turn over a new leaf and follow your dreams.
             </p>
             <button className="close-modal" onClick={toggleModal}>
               Close
